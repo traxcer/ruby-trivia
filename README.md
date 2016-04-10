@@ -1,28 +1,29 @@
 #<img src="img/logo.png"> Ruby Trivia
 
-A list of questions about Ruby programming you can use to quiz yourself.
+Traducción al español de la lista de cuestiones sobre la programación en Ruby, puedes responder tu misma.
 
-#### Contributing
+#### Contribución 
 
-Questions should be focused around Ruby concepts and behaviors, as well as core objects and methods. Questions about data structures and algorithms, design patterns, or other general programming questions are generally outside the scope of this document. Sample answers should be provided for the convenience of the reader.
+Las cuestiones deberán referirse a conceptos y comportamientos de Ruby, así como objetos y métodos.
+Cuestiones sobre las estructuras de datos y algoritmos, patrones de diseño, o otras cuestiones generales de programación quedan fuera del ámbito de este documento. Deberían añadirse ejemplos para un mejor entendimiento del lector.
 
-Language Characteristics and Core Objects
+Características del lenguaje y objetos
 -------------------------------------------------------------------------------
 
-Q: What is the highest level in the object model?  
+Q: ¿Cuál es el modelo de objeto de mayor nivel?
 A: `BasicObject`
 
-Q: Is everything in Ruby an object?  
-A: Methods are not objects. Blocks are not objects. Keywords are not objects. However, there exist Method objects and Proc objects, and some keywords refer to objects.
+Q: ¿Todo en Ruby es un objeto?
+A: Los métodos no son objetos. Los bloques no son objetos. Las palabra ras clave no son objetos. De todas formas, existen objetos de método y objetos de procedimientos, y alguna palabras clave se refieren a objetos.
 
-Q: Which core object includes the `Kernel` module?  
+Q: ¿Cuál es el objeto core incluido en el módulo del `Kernel`?  
 A: `Object`
 
-Q: What can you say about an identifier that begins with a capital letter?  
-A: It is a constant.
+Q: ¿Qué se puede decir del identificador que comienza por mayúscula? 
+A: Que es una Constante.
 
-Q: What is a DSL and how does it pertain to Ruby?  
-A: A Domain Specific Language is an API that allows a developer to solve a problem or represent data more naturally than they might otherwise. The flexible nature of Ruby's syntax and the ability to alias and alter existing methods and classes makes it conducive to creating rich DSL's.
+Q: ¿Qué es un DSL y como está incluido en Ruby?  
+A: Un Domain Specific Language es un API que permite a un desarrollador resolver un problema o representar datos de forma más natural. La sintaxis flexible y natural de Ruby y la habilidad de alias y alterar métodos existentes y clases hacen más fácil crear DSL's.
 
 Q: What is duck typing and how does it pertain to Ruby?  
 A: That an object may be acted upon even if it isn't the expected type as long as it looks and behaves like the expected object. This is a characteristic of Ruby because the lack of type checking of parameters makes this an effective programming technique.
