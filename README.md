@@ -25,11 +25,11 @@ A: Que es una Constante.
 Q: ¿Qué es un DSL y como está incluido en Ruby?  
 A: Un Domain Specific Language es un API que permite a un desarrollador resolver un problema o representar datos de forma más natural. La sintaxis flexible y natural de Ruby y la habilidad de alias y alterar métodos existentes y clases hacen más fácil crear DSL's.
 
-Q: What is duck typing and how does it pertain to Ruby?  
-A: That an object may be acted upon even if it isn't the expected type as long as it looks and behaves like the expected object. This is a characteristic of Ruby because the lack of type checking of parameters makes this an effective programming technique.
+Q :¿Cuál es la tipificación de pato y cómo pertenecen a Ruby ?
+R: Que un objeto puede ser objeto de decisiones , incluso si no es del tipo esperado y se comporta como el objeto esperado . Esta es una característica de Rubí ya que la falta de comprobación de tipos de parámetros hace de ésta una técnica de programación eficaz.
 
-Q: Is Ruby a statically typed or a dynamically typed language?  
-A: Dynamically typed since type checking is done at runtime.
+Q :¿Es un rubí un lenguaje de tipos estático o dinámico?
+R: Es tipado dinámicamente ya que la comprobación de tipos se realiza en tiempo de ejecución .
 
 Q: Is Ruby a strongly typed or a weakly typed language?  
 A: Strongly typed since an object's type is checked before an operation is performed on it.
